@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E580581CCA4BD500F02CBD /* UIView+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E580571CCA4BD500F02CBD /* UIView+SYAdd.m */; };
 		453ED61A1CC5F5B800BEC0FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 453ED6191CC5F5B800BEC0FD /* main.m */; };
 		453ED61D1CC5F5B800BEC0FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453ED61C1CC5F5B800BEC0FD /* AppDelegate.m */; };
 		453ED6201CC5F5B800BEC0FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453ED61F1CC5F5B800BEC0FD /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E580561CCA4BD500F02CBD /* UIView+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SYAdd.h"; sourceTree = "<group>"; };
+		09E580571CCA4BD500F02CBD /* UIView+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYAdd.m"; sourceTree = "<group>"; };
 		453ED6151CC5F5B800BEC0FD /* SY_Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SY_Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453ED6191CC5F5B800BEC0FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		453ED61B1CC5F5B800BEC0FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 			children = (
 				453ED64C1CC5F74800BEC0FD /* UIButton+SYAdd.h */,
 				453ED64D1CC5F74800BEC0FD /* UIButton+SYAdd.m */,
+				09E580561CCA4BD500F02CBD /* UIView+SYAdd.h */,
+				09E580571CCA4BD500F02CBD /* UIView+SYAdd.m */,
 			);
 			path = SY_Category;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 			files = (
 				453ED6201CC5F5B800BEC0FD /* ViewController.m in Sources */,
 				453ED64E1CC5F74800BEC0FD /* UIButton+SYAdd.m in Sources */,
+				09E580581CCA4BD500F02CBD /* UIView+SYAdd.m in Sources */,
 				453ED61D1CC5F5B800BEC0FD /* AppDelegate.m in Sources */,
 				453ED6521CC5FE8C00BEC0FD /* SY_PicLableBtn.m in Sources */,
 				453ED61A1CC5F5B800BEC0FD /* main.m in Sources */,
@@ -533,6 +539,7 @@
 				453ED6441CC5F5B800BEC0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		453ED6451CC5F5B800BEC0FD /* Build configuration list for PBXNativeTarget "SY_ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +548,7 @@
 				453ED6471CC5F5B800BEC0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		453ED6481CC5F5B800BEC0FD /* Build configuration list for PBXNativeTarget "SY_ToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +557,7 @@
 				453ED64A1CC5F5B800BEC0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
