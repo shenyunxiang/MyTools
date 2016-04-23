@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "SY_PicLableBtn.h"
+
+#import "UITableView+SYAdd.h"
 @interface ViewController ()
 
 @end
@@ -45,7 +47,14 @@
     right.image = [UIImage imageNamed:@"角标"];
     right.frame= CGRectMake(60, left.frame.origin.y+left.frame.size.height + 10, right.sizeWidth, right.sizeHeight);
     
+    [self testAssociate];
+    
+}
 
+- (void)testAssociate{
+    UITableView *table = [[UITableView alloc]init];
+    table.sy_defaultCellHeight = 100;
+    NSLog(@"------>%f", table.sy_defaultCellHeight);
     
 }
 

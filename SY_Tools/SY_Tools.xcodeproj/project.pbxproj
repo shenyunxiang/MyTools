@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0915853E1CCB3B7B004F1A6D /* UITableView+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0915853D1CCB3B7B004F1A6D /* UITableView+SYAdd.m */; };
 		09E580581CCA4BD500F02CBD /* UIView+SYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E580571CCA4BD500F02CBD /* UIView+SYAdd.m */; };
 		453ED61A1CC5F5B800BEC0FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 453ED6191CC5F5B800BEC0FD /* main.m */; };
 		453ED61D1CC5F5B800BEC0FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453ED61C1CC5F5B800BEC0FD /* AppDelegate.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0915853C1CCB3B7B004F1A6D /* UITableView+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SYAdd.h"; sourceTree = "<group>"; };
+		0915853D1CCB3B7B004F1A6D /* UITableView+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SYAdd.m"; sourceTree = "<group>"; };
 		09E580561CCA4BD500F02CBD /* UIView+SYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SYAdd.h"; sourceTree = "<group>"; };
 		09E580571CCA4BD500F02CBD /* UIView+SYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYAdd.m"; sourceTree = "<group>"; };
 		453ED6151CC5F5B800BEC0FD /* SY_Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SY_Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +164,8 @@
 				453ED64D1CC5F74800BEC0FD /* UIButton+SYAdd.m */,
 				09E580561CCA4BD500F02CBD /* UIView+SYAdd.h */,
 				09E580571CCA4BD500F02CBD /* UIView+SYAdd.m */,
+				0915853C1CCB3B7B004F1A6D /* UITableView+SYAdd.h */,
+				0915853D1CCB3B7B004F1A6D /* UITableView+SYAdd.m */,
 			);
 			path = SY_Category;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 				453ED61D1CC5F5B800BEC0FD /* AppDelegate.m in Sources */,
 				453ED6521CC5FE8C00BEC0FD /* SY_PicLableBtn.m in Sources */,
 				453ED61A1CC5F5B800BEC0FD /* main.m in Sources */,
+				0915853E1CCB3B7B004F1A6D /* UITableView+SYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
