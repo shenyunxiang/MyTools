@@ -8,6 +8,11 @@
 
 #import "SY_PicLableBtn.h"
 
+#define kscreenSize     [UIScreen mainScreen].bounds.size
+#define kfitWidth(w)    w * (kscreenSize.width / 320.0f)
+#define kfitHeight(h)   h * (kscreenSize.height / 568.0f)
+
+
 @interface SY_PicLableBtn ()
 
 @property (nonatomic,assign) PicLabType      piclabType;
@@ -36,13 +41,15 @@
     
     
     [self _adjustLayout];
+    
+    self.frame = CGRectMake(0, 0, self.sizeWidth, self.sizeHeight);
 }
 
 
 
 #pragma mark ---- Private ----
 - (void)_setDefaultProperty{
-    self.font = [UIFont systemFontOfSize:14.0];
+    self.font = [UIFont systemFontOfSize:kfitWidth(14.0)];
     self.space = 4.0;
     self.sizeWidth = 0.0;
     self.sizeHeight = 0.0;
@@ -81,8 +88,8 @@
 //调整布局
 - (void)_adjustLayout{
     
-    CGFloat imageW = _image.size.width;
-    CGFloat imageH = _image.size.height;
+    CGFloat imageW = kfitHeight(_image.size.width);
+    CGFloat imageH = kfitHeight(_image.size.height);
     
     if (self.piclabType == PicLabTypeTopImage) {
         
@@ -140,6 +147,7 @@
 
 -(void)setFont:(UIFont *)font{
     _font = font;
+    
     self.titleLabel.font = font;
     
 }

@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 #import "SY_PicLableBtn.h"
-#import "SY_AddressBook/SY_AddressBookDataManager.h"
 #import "UITableView+SYAdd.h"
+#import "AddressBookView.h"
 @interface ViewController ()
 
 @end
@@ -29,9 +29,7 @@
 }
 - (IBAction)loadAddressBookAction:(id)sender {
     
-    SY_AddressBookDataManager *manager = [[SY_AddressBookDataManager alloc]init];
-    [manager addPersonWithName:@"沈云" workNumber:@"1231212"];
-    [manager personDataRequest];
+    
     
 }
 
